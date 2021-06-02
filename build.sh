@@ -10,8 +10,7 @@ export PATH="$HOME/toolchains/proton-clang/bin:$PATH"
 export PATH="$HOME/toolchains/arm64-gcc-10/bin:$PATH"
 export PATH="$HOME/toolchains/arm32-gcc-10/bin:$PATH"
 
-#DEVICES=(m20lte m20_lte_docker m30lte a30 a30s a40)
-DEVICES=(m20lte_docker)
+DEVICES=(m20lte m30lte a30 a30s a40)
 KERNEL_DIR="$PWD"
 KERNEL_IMAGE="$KERNEL_DIR/out/arch/arm64/boot/Image"
 AK3_DIR="$HOME/tools/AnyKernel/$PLATFORM"
